@@ -1,3 +1,6 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .App {
   text-align: center;
 }
@@ -6,3 +9,29 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character-list{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.character-card{
+    background: #fff;
+    border-radius: 2px;
+    display: flex;
+    max-height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.character-info{
+    margin: 0 auto;
+    text-align: start;
+    /* padding-left: 24px; */
+}
+
+h1 {
+    margin: 0;
+    padding: 16px 0;
+    color: white;
+  }
