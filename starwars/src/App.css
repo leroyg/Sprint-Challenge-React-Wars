@@ -1,6 +1,3 @@
-html{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
 .App {
   text-align: center;
 }
@@ -34,4 +31,5 @@ h1 {
     margin: 0;
     padding: 16px 0;
     color: white;
+    font-family: 'Roboto', sans-serif;
   }
